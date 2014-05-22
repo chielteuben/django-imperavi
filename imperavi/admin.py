@@ -23,6 +23,8 @@ class ImperaviAdmin(admin.ModelAdmin):
         js = (
             '%simperavi/jquery.js' % settings.STATIC_URL,
             '%simperavi/redactor/redactor.min.js' % settings.STATIC_URL,
+            '%simperavi/fontfamily.js' % settings.STATIC_URL,
+            '%simperavi/fontsize.js' % settings.STATIC_URL,
         )
         css = {
             'all': (
