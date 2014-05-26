@@ -25,6 +25,7 @@ class ImperaviAdmin(admin.ModelAdmin):
             '%simperavi/redactor/redactor.min.js' % settings.STATIC_URL,
             '%simperavi/fontfamily.js' % settings.STATIC_URL,
             '%simperavi/fontsize.js' % settings.STATIC_URL,
+            '%simperavi/fontcolor.js' % settings.STATIC_URL,
         )
         css = {
             'all': (
@@ -51,6 +52,9 @@ class ImperaviStackedInlineAdmin(admin.StackedInline):
         js = (
             '%simperavi/jquery.js' % settings.STATIC_URL,
             '%simperavi/redactor/redactor.min.js' % settings.STATIC_URL,
+            '%simperavi/fontfamily.js' % settings.STATIC_URL,
+            '%simperavi/fontsize.js' % settings.STATIC_URL,
+            '%simperavi/fontcolor.js' % settings.STATIC_URL,
         )
         css = {
             'all': (

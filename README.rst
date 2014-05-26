@@ -43,7 +43,7 @@ Add a ``IMPERAVI_CUSTOM_SETTINGS`` variable to your ``settings.py`` with custom 
         'lang': 'ua',
         'toolbar': 'mini',
         'resize': true,
-        'plugins': ['fontsize', 'fontfamily']
+        'plugins': ['fontsize', 'fontfamily', 'fontcolor']
     }
 
 Full list of settings is `here.
