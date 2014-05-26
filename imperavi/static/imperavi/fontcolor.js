@@ -38,7 +38,7 @@ RedactorPlugins.fontcolor = {
         {
             var name = buttons[i];
 
-            var $dropdown = $('<div class="redactor_dropdown redactor_dropdown_box_' + name + '" style="display: none; width: 243px;">');
+            var $dropdown = $('<div class="redactor_dropdown redactor_dropdown_box_' + name + '" style="display: none; width: 410px;">');
 
             this.pickerBuild($dropdown, name, colors);
             $(this.$toolbar).append($dropdown);
