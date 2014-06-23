@@ -21,7 +21,7 @@ class ImperaviAdmin(admin.ModelAdmin):
 
     class Media:
         js = (
-            'http://code.jquery.com/ui/1.9.2/jquery-ui.min.js',
+            'http://code.jquery.com/jquery-1.11.1.min.js',
             '%simperavi/redactor/redactor.min.js' % settings.STATIC_URL,
             '%simperavi/fontfamily.js' % settings.STATIC_URL,
             '%simperavi/fontsize.js' % settings.STATIC_URL,
@@ -50,7 +50,7 @@ class ImperaviStackedInlineAdmin(admin.StackedInline):
 
     class Media:
         js = (
-            'http://code.jquery.com/ui/1.9.2/jquery-ui.min.js',
+            'http://code.jquery.com/jquery-1.11.1.min.js',
             '%simperavi/redactor/redactor.min.js' % settings.STATIC_URL,
             '%simperavi/fontfamily.js' % settings.STATIC_URL,
             '%simperavi/fontsize.js' % settings.STATIC_URL,
